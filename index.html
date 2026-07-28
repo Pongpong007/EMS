@@ -8,20 +8,43 @@
     <style>
         body{
             font-family: Arial, sans-serif;
-            background:#f2f2f2;
+            margin:0;
+            height:100vh;
+
             display:flex;
             justify-content:center;
             align-items:center;
-            height:100vh;
-            margin:0;
+
+            /* Background Image */
+            background-image: url("https://www.event-hochiminhcity.com/images/service/DSC_493987.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         .container{
             text-align:center;
-            background:#fff;
+            background:rgba(255,255,255,0.9);
             padding:30px;
+            border-radius:15px;
+            box-shadow:0 5px 20px rgba(0,0,0,.3);
+            width:90%;
+            max-width:500px;
+        }
+
+        .container img{
+            width:100%;
             border-radius:10px;
-            box-shadow:0 5px 15px rgba(0,0,0,.2);
+            margin-bottom:20px;
+        }
+
+        h1{
+            color:#333;
+        }
+
+        p{
+            color:#555;
         }
 
         a{
@@ -33,23 +56,24 @@
             text-decoration:none;
             border-radius:5px;
             font-size:18px;
+            transition:0.3s;
         }
 
         a:hover{
             background:#0b8043;
+            transform:scale(1.05);
         }
     </style>
 </head>
 <body>
- 
-    
+
 <div class="container">
 
     <img src="https://www.event-hochiminhcity.com/images/service/DSC_493987.jpg"
-     alt="Event Image"
-     style="max-width:100%; height:auto;">
-    
+         alt="Event Image">
+
     <h1>Welcome!</h1>
+
     <p>Click the button below to open my Google Drive folder.</p>
 
     <a href="https://drive.google.com/drive/folders/1dOHKYH0jyfsFOLi0jcpl68ya7BgvjKpf"
